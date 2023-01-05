@@ -7,18 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/471d17c5c6.js" crossorigin="anonymous"></script>
-    <title>RBA - Calculator</title>
+    <title>RBA - Kalkulačka</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div id="navbar" class="fixed w-full py-4 px-10 text-white z-50">
+        <div class="flex flex-row justify-between">
+            <div class="w-[2%]">
+                <img src="../images/reshot-icon-calculator-V72YFDUG3Q.svg" alt="calculator">
+            </div>
+            <div class="flex flex-row justify-around items-stretch space-x-6 text-sm font-light">
+                <a class="self-center animated-underline">
+                    AKO TO FUNGUJE
+                </a>
+                <a class="self-center animated-underline">
+                    VYPOČÍTAŤ SKÓRE
+                </a>
+                <a class="self-center animated-underline">
+                    FAQ
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="landing text-white full-screen">
-        <div class="absolute bottom-1 right-4 left-auto w-[10%]">
+        <div class="absolute bottom-1 right-4 left-auto w-[10%] z-10">
             <img src="../images/reshot-icon-robot-ZVMGLAU568.svg" alt="robot" class="w-full">
         </div>
-        <div class="absolute left-0 top-[30%] w-[25%]">
+        <div class="absolute left-0 top-[30%] w-[25%] z-10">
             <img src="../images/reshot-icon-industrial-robot-DA6G5KLBSE.svg" alt="robot" class="w-full">
         </div>
         <div class="flex flex-row justify-center items-stretch full-screen max-w-3/4">
@@ -38,6 +56,25 @@
         celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
 
     </div>
+    <div>
+        dostať čo najrýchlejšie do stredu bludiska (viď. modrá oblasť na návrhu bludiska) a zastať. Ak robot naruší steny bludiska, bude postavený späť na začiatok, pričom čas plynie ďalej. Výška stien bludiska je minimálne 9 cm. Robotom je zakázané prechádzať
+        cez steny v bludisku iným spôsobom ako cez otvory v stenách. Pozn.: Návrh bludiska je len ilustračný. Stred bludiska bude mať modrý podklad, zvyšná časť bude mať iný ako modrý podklad. Podklad prvých štyroch levelov bude mať biely podklad. Bodovanie
+        Cieľom je získať čo najviac bodov za úspešné zvládnutie levelov. Za zvládnutie levelov 1-4 na prvý pokus dostane tím 5 bodov, za každý ďalší pokus dostane tím o 1 bod menej. Ak tím ani na piaty pokus nezvládne level, môže ho preskočiť, alebo sa
+        pokúšať splniť ho ďalej za 1 bod. Každý robot, ktorý sa dostane v časovom limite (3 minúty) na modrú plochu v bludisku, získava 3 body. Tím, ktorý sa dostane do stredu bludiska ako prvý, získava bonusové 2. Ak robot strávil hľadaním modrej plochy
+        celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
+
+    </div>
+    <div>
+        dostať čo najrýchlejšie do stredu bludiska (viď. modrá oblasť na návrhu bludiska) a zastať. Ak robot naruší steny bludiska, bude postavený späť na začiatok, pričom čas plynie ďalej. Výška stien bludiska je minimálne 9 cm. Robotom je zakázané prechádzať
+        cez steny v bludisku iným spôsobom ako cez otvory v stenách. Pozn.: Návrh bludiska je len ilustračný. Stred bludiska bude mať modrý podklad, zvyšná časť bude mať iný ako modrý podklad. Podklad prvých štyroch levelov bude mať biely podklad. Bodovanie
+        Cieľom je získať čo najviac bodov za úspešné zvládnutie levelov. Za zvládnutie levelov 1-4 na prvý pokus dostane tím 5 bodov, za každý ďalší pokus dostane tím o 1 bod menej. Ak tím ani na piaty pokus nezvládne level, môže ho preskočiť, alebo sa
+        pokúšať splniť ho ďalej za 1 bod. Každý robot, ktorý sa dostane v časovom limite (3 minúty) na modrú plochu v bludisku, získava 3 body. Tím, ktorý sa dostane do stredu bludiska ako prvý, získava bonusové 2. Ak robot strávil hľadaním modrej plochy
+        celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

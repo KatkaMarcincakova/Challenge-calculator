@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 120.26 147.66"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="reshot-icon-calculator-V72YFDUG3Q.svg"
+   width="120.26"
+   height="147.66"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.8085937"
+     inkscape:cx="24.38943"
+     inkscape:cy="79.577191"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg26" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#1d384d;}</style>
+  </defs>
+  <title
+     id="title6">calculator</title>
+  <path
+     class="cls-1"
+     d="M 101.8,147.66 H 18.46 A 18.48,18.48 0 0 1 0,129.2 V 18.46 A 18.48,18.48 0 0 1 18.46,0 h 83.34 a 18.48,18.48 0 0 1 18.46,18.46 V 129.2 A 18.48,18.48 0 0 1 101.8,147.66 Z M 18.46,4 A 14.47,14.47 0 0 0 4,18.46 V 129.2 a 14.47,14.47 0 0 0 14.46,14.46 H 101.8 A 14.48,14.48 0 0 0 116.26,129.2 V 18.46 A 14.47,14.47 0 0 0 101.8,4 Z"
+     id="path8"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 29.29,93.89 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8 z"
+     id="path10"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 60.99,93.89 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8 z"
+     id="path12"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 29.29,127.12 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8.01 z"
+     id="path14"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 60.99,127.12 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8.01 z"
+     id="path16"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 92.69,93.89 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8 z"
+     id="path18"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="m 92.69,127.12 a 12,12 0 1 1 12,-12 12,12 0 0 1 -12,12 z m 0,-19.91 a 8,8 0 1 0 8,8 8,8 0 0 0 -8,-8.01 z"
+     id="path20"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     class="cls-1"
+     d="M 104.65,51.72 H 17.33 V 19.17 h 87.32 z m -83.32,-4 h 79.32 V 23.17 H 21.33 Z"
+     id="path22"
+     style="fill:#ffffff;fill-opacity:1" />
+  <metadata
+     id="metadata845">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>calculator</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

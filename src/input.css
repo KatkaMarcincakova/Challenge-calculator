@@ -40,3 +40,28 @@ body {
     @apply bg-orange;
     border-radius: 10px;
 }
+
+/* animated underline
+--------------------------------------------------*/
+
+.animated-underline {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.animated-underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: transform 0.25s ease-in-out;
+}
+
+.animated-underline:hover:after {
+    transform: scaleX(1);
+}

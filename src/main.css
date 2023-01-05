@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -537,16 +541,28 @@ video {
   top: 30%;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .flex {
   display: flex;
 }
 
-.w-\[10\%\] {
-  width: 10%;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-\[2\%\] {
+  width: 2%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
 }
 
 .w-\[25\%\] {
@@ -569,12 +585,54 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .self-center {
   align-self: center;
 }
 
+.bg-mainBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(212 78% 24% / var(--tw-bg-opacity));
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-white {
@@ -620,4 +678,29 @@ body {
   --tw-bg-opacity: 1;
   background-color: hsl(39 98% 50% / var(--tw-bg-opacity));
   border-radius: 10px;
+}
+
+/* animated underline
+--------------------------------------------------*/
+
+.animated-underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.animated-underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transition: transform 0.25s ease-in-out;
+}
+
+.animated-underline:hover:after {
+  transform: scaleX(1);
 }
