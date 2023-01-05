@@ -53,33 +53,36 @@
             </div>
         </div>
     </div>
-    <div>
-        dostať čo najrýchlejšie do stredu bludiska (viď. modrá oblasť na návrhu bludiska) a zastať. Ak robot naruší steny bludiska, bude postavený späť na začiatok, pričom čas plynie ďalej. Výška stien bludiska je minimálne 9 cm. Robotom je zakázané prechádzať
-        cez steny v bludisku iným spôsobom ako cez otvory v stenách. Pozn.: Návrh bludiska je len ilustračný. Stred bludiska bude mať modrý podklad, zvyšná časť bude mať iný ako modrý podklad. Podklad prvých štyroch levelov bude mať biely podklad. Bodovanie
-        Cieľom je získať čo najviac bodov za úspešné zvládnutie levelov. Za zvládnutie levelov 1-4 na prvý pokus dostane tím 5 bodov, za každý ďalší pokus dostane tím o 1 bod menej. Ak tím ani na piaty pokus nezvládne level, môže ho preskočiť, alebo sa
-        pokúšať splniť ho ďalej za 1 bod. Každý robot, ktorý sa dostane v časovom limite (3 minúty) na modrú plochu v bludisku, získava 3 body. Tím, ktorý sa dostane do stredu bludiska ako prvý, získava bonusové 2. Ak robot strávil hľadaním modrej plochy
-        celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
-
-    </div>
-    <div>
-        dostať čo najrýchlejšie do stredu bludiska (viď. modrá oblasť na návrhu bludiska) a zastať. Ak robot naruší steny bludiska, bude postavený späť na začiatok, pričom čas plynie ďalej. Výška stien bludiska je minimálne 9 cm. Robotom je zakázané prechádzať
-        cez steny v bludisku iným spôsobom ako cez otvory v stenách. Pozn.: Návrh bludiska je len ilustračný. Stred bludiska bude mať modrý podklad, zvyšná časť bude mať iný ako modrý podklad. Podklad prvých štyroch levelov bude mať biely podklad. Bodovanie
-        Cieľom je získať čo najviac bodov za úspešné zvládnutie levelov. Za zvládnutie levelov 1-4 na prvý pokus dostane tím 5 bodov, za každý ďalší pokus dostane tím o 1 bod menej. Ak tím ani na piaty pokus nezvládne level, môže ho preskočiť, alebo sa
-        pokúšať splniť ho ďalej za 1 bod. Každý robot, ktorý sa dostane v časovom limite (3 minúty) na modrú plochu v bludisku, získava 3 body. Tím, ktorý sa dostane do stredu bludiska ako prvý, získava bonusové 2. Ak robot strávil hľadaním modrej plochy
-        celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
-
-    </div>
-    <div>
-        dostať čo najrýchlejšie do stredu bludiska (viď. modrá oblasť na návrhu bludiska) a zastať. Ak robot naruší steny bludiska, bude postavený späť na začiatok, pričom čas plynie ďalej. Výška stien bludiska je minimálne 9 cm. Robotom je zakázané prechádzať
-        cez steny v bludisku iným spôsobom ako cez otvory v stenách. Pozn.: Návrh bludiska je len ilustračný. Stred bludiska bude mať modrý podklad, zvyšná časť bude mať iný ako modrý podklad. Podklad prvých štyroch levelov bude mať biely podklad. Bodovanie
-        Cieľom je získať čo najviac bodov za úspešné zvládnutie levelov. Za zvládnutie levelov 1-4 na prvý pokus dostane tím 5 bodov, za každý ďalší pokus dostane tím o 1 bod menej. Ak tím ani na piaty pokus nezvládne level, môže ho preskočiť, alebo sa
-        pokúšať splniť ho ďalej za 1 bod. Každý robot, ktorý sa dostane v časovom limite (3 minúty) na modrú plochu v bludisku, získava 3 body. Tím, ktorý sa dostane do stredu bludiska ako prvý, získava bonusové 2. Ak robot strávil hľadaním modrej plochy
-        celé 3 minúty v bludisku, ale nepodarilo sa mu nájsť modrú plochu, získava 1 bod.
-
+    <div id="how" class="w-[90%] mx-auto text-mainBlue mt-10">
+        <div class="w-full text-center font-semibold text-3xl">Ako to funguje?</div>
+        <div class="flex flex-row justify-around items-stretch mt-5">
+            <div class="self-center w-[40%]">
+                nejaka cool animacia
+            </div>
+            <div class="self-center flex flex-col w-[40%] space-y-5">
+                <div class="flex flex-row space-x-2 items-stretch">
+                    <div class="self-center h-min rounded-[50%] py-2 px-3 bg-orange text-mainBlue font-semibold">1.</div>
+                    <div>Do políčok pre levely 1 - 4 zadáš, na ktorý pokus bol level splnený</div>
+                </div>
+                <div class="flex flex-row space-x-2 items-stretch">
+                    <div class="self-center h-min rounded-[50%] py-2 px-3 bg-orange text-mainBlue font-semibold">2.</div>
+                    <div>
+                        Pre level 5 zaznačíte, či ste obsadili modrú plochu, nestihli do 3 minút nájsť modrú plochu, alebo ani nezačali level.
+                    </div>
+                </div>
+                <div class="flex flex-row space-x-2 items-stretch">
+                    <div class="self-center h-min rounded-[50%] py-2 px-3 bg-orange text-mainBlue font-semibold">3.</div>
+                    <div>
+                        Ak skúšate naraz viacerí, môžete v poslednom políčku zaznačiť, kto prvý obsadil územie.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="navbar.js"></script>
+    <script src="numberBubble.js"></script>
 </body>
 
 </html>
