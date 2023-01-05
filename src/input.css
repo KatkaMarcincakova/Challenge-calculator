@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing {
+    background-image: linear-gradient(to right bottom, #0d396b, #11477e, #135591, #1364a5, #0f74b9, #0780c4, #028dcf, #0099d9, #00a4db, #00aedc, #17b8db, #33c1da);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+
+
+/* scrollbar
+-------------------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-orange;
+    border-radius: 10px;
+}
