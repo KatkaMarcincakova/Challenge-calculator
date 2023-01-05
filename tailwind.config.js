@@ -16,7 +16,8 @@ module.exports = {
                 mainBlue: 'hsl(212, 78%, 24%)',
                 lightBlue: 'hsl(189, 69%, 53%)',
                 blue: 'hsl(201, 100%, 42%)',
-                orange: 'hsl(39, 98%, 50%)'
+                orange: 'hsl(39, 98%, 50%)',
+                darkOrange: 'hsl(39, 98%, 40%)'
             }
         },
     },
