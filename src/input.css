@@ -65,3 +65,7 @@ body {
 .animated-underline:hover:after {
     transform: scaleX(1);
 }
+
+.scrolled-navbar {
+    @apply bg-mainBlue;
+}
