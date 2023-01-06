@@ -585,6 +585,22 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -601,12 +617,12 @@ video {
   height: 2.5rem;
 }
 
-.w-full {
-  width: 100%;
+.h-8 {
+  height: 2rem;
 }
 
-.w-\[2\%\] {
-  width: 2%;
+.w-full {
+  width: 100%;
 }
 
 .w-\[10\%\] {
@@ -636,6 +652,14 @@ video {
 
 .w-1 {
   width: 0.25rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .flex-shrink-0 {
@@ -680,6 +704,12 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .self-center {
   align-self: center;
 }
@@ -700,6 +730,11 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-lightBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(189 69% 53% / var(--tw-bg-opacity));
 }
 
 .py-4 {
@@ -734,23 +769,14 @@ video {
   text-align: center;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.font-normal {
-  font-weight: 400;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -787,6 +813,7 @@ video {
 html,
 body {
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .full-screen {
@@ -830,6 +857,7 @@ body {
 .animated-underline {
   display: inline-block;
   position: relative;
+  cursor: pointer;
 }
 
 .animated-underline:after {
