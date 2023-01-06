@@ -10,3 +10,25 @@ $(window).on("scroll touchmove", function() {
         console.log("ee");
     }
 })
+
+function scrollToSection(section) {
+    $('html').animate({
+        scrollTop: $(section).offset().top - 2 * ($("#navbar").height())
+    }, 100);
+    $("#mobileMenu").addClass("hidden");
+};
+
+function openMenu() {
+    if ($("#mobileMenu").hasClass("hidden"))
+        $("#mobileMenu").removeClass("hidden");
+}
+
+function closeMenu() {
+    $("#mobileMenu").addClass("hidden");
+}
+
+/*
+$("#mobileMenu").click(function() {
+    $("#mobileMenu").addClass("hidden");
+});
+*/
