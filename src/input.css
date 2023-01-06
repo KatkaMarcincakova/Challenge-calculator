@@ -47,7 +47,6 @@ body {
 .animated-underline {
     display: inline-block;
     position: relative;
-    color: white;
 }
 
 .animated-underline:after {
@@ -66,6 +65,13 @@ body {
     transform: scaleX(1);
 }
 
+.not-scrolled-navbar {
+    @apply text-white;
+    @apply font-light;
+}
+
 .scrolled-navbar {
-    @apply bg-mainBlue;
+    @apply bg-orange;
+    @apply text-mainBlue;
+    @apply font-normal;
 }

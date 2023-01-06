@@ -601,15 +601,6 @@ video {
   height: 2.5rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-min {
-  height: -moz-min-content;
-  height: min-content;
-}
-
 .w-full {
   width: 100%;
 }
@@ -645,10 +636,6 @@ video {
 
 .w-1 {
   width: 0.25rem;
-}
-
-.w-5 {
-  width: 1.25rem;
 }
 
 .flex-shrink-0 {
@@ -693,18 +680,6 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .self-center {
   align-self: center;
 }
@@ -715,15 +690,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-\[50\%\] {
-  border-radius: 50%;
-}
-
-.bg-mainBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(212 78% 24% / var(--tw-bg-opacity));
 }
 
 .bg-orange {
@@ -756,11 +722,6 @@ video {
   padding-right: 1.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -783,8 +744,13 @@ video {
   line-height: 2.25rem;
 }
 
-.font-light {
-  font-weight: 300;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -864,7 +830,6 @@ body {
 .animated-underline {
   display: inline-block;
   position: relative;
-  color: white;
 }
 
 .animated-underline:after {
@@ -883,9 +848,18 @@ body {
   transform: scaleX(1);
 }
 
+.not-scrolled-navbar {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 300;
+}
+
 .scrolled-navbar {
   --tw-bg-opacity: 1;
-  background-color: hsl(212 78% 24% / var(--tw-bg-opacity));
+  background-color: hsl(39 98% 50% / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(212 78% 24% / var(--tw-text-opacity));
+  font-weight: 400;
 }
 
 .hover\:bg-darkOrange:hover {
