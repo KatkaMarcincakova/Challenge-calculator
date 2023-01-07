@@ -727,6 +727,14 @@ video {
   width: 5rem;
 }
 
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -940,6 +948,11 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-12 {
@@ -1191,6 +1204,14 @@ body {
 }
 
 @media (min-width: 480px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
+  .sm\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1221,6 +1242,10 @@ body {
 
   .md\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .md\:w-\[90\%\] {
+    width: 90%;
   }
 
   .md\:rotate-0 {
@@ -1285,6 +1310,14 @@ body {
     width: 25%;
   }
 
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1311,6 +1344,10 @@ body {
 
   .xl\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .xl\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .xl\:text-5xl {
