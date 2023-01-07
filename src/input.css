@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-.landing {
+.gradient-bg {
     background-image: linear-gradient(to right bottom, #0d396b, #11477e, #135591, #1364a5, #0f74b9, #0780c4, #028dcf, #0099d9, #00a4db, #00aedc, #17b8db, #33c1da);
     background-repeat: no-repeat;
     background-position: center;

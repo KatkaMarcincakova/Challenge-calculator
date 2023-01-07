@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/471d17c5c6.js" crossorigin="anonymous"></script>
+    <title>RBA - Kalkulačka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/logo.svg">
+</head>
+
+<body>
+    <div class="gradient-bg px-4 py-8 flex flex-col space-y-4">
+        <div class="flex justify-center">
+            <img src="images/logo-text.svg" alt="logo with text" class="w-1/6">
+        </div>
+        <div class="flex flex-row justify-center">
+            <div class="flex flex-col w-min mx-auto rounded-xl bg-slate-200 drop-shadow-2xl p-6 text-mainBlue">
+                <span class="font-bold text-2xl">
+                    Kalkulačka na výpočet skóre
+                </span>
+                <div class="mt-2">
+                    <div class="mb-3 xl:w-96">
+                        <label for="Level1" class="form-label inline-block mb-2 text-gray-700 text-lg font-semibold">
+                            Level 1 - Sledovanie čiary
+                        </label>
+                        <input type="number" min="1" max="5" class="
+                          form-control
+                          block
+                          w-full
+                          px-3
+                          py-1.5
+                          text-base
+                          font-normal
+                          text-gray-700
+                          bg-white bg-clip-padding
+                          border border-solid border-gray-300
+                          rounded-3xl
+                          transition
+                          ease-in-out
+                          m-0
+                          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                        " id="Level1" placeholder="1" />
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="mb-3 xl:w-96">
+                        <label for="Level2" class="form-label inline-block mb-2 text-gray-700 text-lg font-semibold">
+                            Level 2 - Uloženie kocky
+                        </label>
+                        <input type="number" min="1" max="5" class="
+                          form-control
+                          block
+                          w-full
+                          px-3
+                          py-1.5
+                          text-base
+                          font-normal
+                          text-gray-700
+                          bg-white bg-clip-padding
+                          border border-solid border-gray-300
+                          rounded-3xl
+                          transition
+                          ease-in-out
+                          m-0
+                          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                        " id="Level2" placeholder="1" />
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="mb-3 xl:w-96">
+                        <label for="Level3" class="form-label inline-block mb-2 text-gray-700 text-lg font-semibold">
+                            Level 3 - Slalom
+                        </label>
+                        <input type="number" min="1" max="5" class="
+                          form-control
+                          block
+                          w-full
+                          px-3
+                          py-1.5
+                          text-base
+                          font-normal
+                          text-gray-700
+                          bg-white bg-clip-padding
+                          border border-solid border-gray-300
+                          rounded-3xl
+                          transition
+                          ease-in-out
+                          m-0
+                          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                        " id="Level3" placeholder="1" />
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="mb-3 xl:w-96">
+                        <label for="Level4" class="form-label inline-block mb-2 text-gray-700 text-lg font-semibold">
+                            Level 4 - Tanec
+                        </label>
+                        <input type="number" min="1" max="5" class="
+                          form-control
+                          block
+                          w-full
+                          px-3
+                          py-1.5
+                          text-base
+                          font-normal
+                          text-gray-700
+                          bg-white bg-clip-padding
+                          border border-solid border-gray-300
+                          rounded-3xl
+                          transition
+                          ease-in-out
+                          m-0
+                          focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                        " id="Level4" placeholder="1" />
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="mb-2 text-gray-700 text-lg font-semibold">
+                        Level 5 - Bludisko
+                    </div>
+                    <div>
+                        <input type="radio" id="found" name="l5" value="found" class="rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-mainBlue checked:border-mainBlue focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer">
+                        <label for="found">Našiel modrú plochu v časovom limite</label><br>
+                        <input type="radio" id="notfound" name="l5" value="notfound" class="rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-mainBlue checked:border-mainBlue focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer">
+                        <label for="notfound">Nenašiel modrú plochu v časovom limite</label><br>
+                        <input type="radio" id="none" name="l5" value="none" class="rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-mainBlue checked:border-mainBlue focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer">
+                        <label for="none">Do bludiska ani nevošiel</label>
+                    </div>
+                    <div class="mt-2">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer">
+                        <label for="vehicle1">Našiel modrú plochu ako prvý</label>
+                    </div>
+                </div>
+                <button class="bg-orange mt-3 py-2 px-5 w-full rounded-3xl hover:bg-darkOrange hover:text-white">
+                    Vypočítať skóre
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
