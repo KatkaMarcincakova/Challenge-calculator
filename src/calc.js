@@ -91,3 +91,37 @@ function calculateResults() {
     removeRedFromInputs();
     $("#results").removeClass("hidden");
 }
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function generateColors() {
+    var colorUsage = [false, false, false, false];
+    var colorDivs = ["red", "green", "blue", "yellow"];
+
+    for(var i = 0; i < 4; i++) {
+        var divElement = document.getElementById(colorDivs[i]);
+
+        if (!divElement.classList.contains('hidden')) {
+            divElement.classList.add('hidden');
+        }
+    }
+
+    for(var i = 0; i < 3; i++) {
+        var randomNum = getRandomInt(0, 3);
+        while (colorUsage[randomNum]) {
+            randomNum = getRandomInt(0, 3);
+        }
+        colorUsage[randomNum] = true;
+
+        var divElement = document.getElementById(colorDivs[randomNum]);
+
+        if (divElement.classList.contains('hidden')) {
+            divElement.classList.remove('hidden');
+        }
+    }
+    //console.log(colorUsage);
+}
